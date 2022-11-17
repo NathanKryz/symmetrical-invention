@@ -1,7 +1,7 @@
-// Main splash, lorem ipsum it up
+// A tl;dr and a link to the google drive?
 import React from 'react';
 
-export default function Home() {
+export default function Resume() {
   return (
     <div>
       <h1>About Page</h1>
