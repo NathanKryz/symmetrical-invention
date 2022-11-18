@@ -16,7 +16,7 @@ function Contact() {
 
     if (inputType === 'email') {
       setEmail(inputValue);
-    } else if (inputType === 'userName') {
+    } else if (inputType === 'name') {
       setConName(inputValue);
     }
     else {
@@ -42,36 +42,48 @@ function Contact() {
     setConName('');
     sendMessage('');
     setEmail('');
-    alert(`Contact info successful sent ${contactName}`);
+    alert(`Contact info successfully sent ${contactName}`);
   };
 
   return (
     <div>
+        <h1>Contact Me</h1>
       <form className="form">
+        <div className="mb3">
         <input
+          className="form-control inBox"
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
           placeholder="email"
         />
+        </div>
+        <div className="mb3">
         <input
+          className="form-control inBox"
           value={contactName}
-          name="contactName"
+          name="name"
           onChange={handleInputChange}
           type="text"
-          placeholder="Name"
+          placeholder="name"
         />
-        <input
+        </div>
+        <div className="mb3">
+        <textarea
+          className="form-control mesBox"
           value={contactMessage}
           name="message"
           onChange={handleInputChange}
           type="text"
           placeholder="message"
         />
+        </div>
+        <div className="mb3 subButton">
         <button type="button" onClick={handleFormSubmit}>
           Submit
         </button>
+        </div>
       </form>
       {errorMessage && (
         <div>

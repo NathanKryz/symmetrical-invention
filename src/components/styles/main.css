@@ -1,5 +1,11 @@
 
-
+.backColour{
+    height:100%;
+    width:100%;
+    position: absolute;
+    z-index: -3;
+    background-color: #005E7C;
+}
 .projlab {
     position: absolute;
     display: flex;
@@ -24,6 +30,40 @@
     max-height: 600px;
     width: 250px;
     height: 250px;
+}
+
+.mesBox{
+    margin-top: 1.5rem;
+    height: 300px;
+    max-width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.inBox {
+    margin-top: 1.5rem;
+    max-width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.subButton {
+    margin-top: 1.5rem;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+    margin-bottom: 1.5rem;  
+}
+
+.subButton button {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 20px;
+}
+
+.pageText{
+    margin: auto;
+    max-width: 65%;
 }
 
 #profimgcontainer{
