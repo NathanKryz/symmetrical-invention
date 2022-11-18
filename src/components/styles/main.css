@@ -1,0 +1,48 @@
+
+
+.projlab {
+    position: absolute;
+    display: flex;
+    z-index: 3;
+    background-color: black;
+    font-size: 1vw;
+}
+
+.projlab p{
+    color: white;
+}
+
+.projdiv{
+    display: flex;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.projimg{
+
+    max-width: 600px;
+    max-height: 600px;
+    width: 250px;
+    height: 250px;
+}
+
+#profimgcontainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 99%;
+}
+
+#profimg{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#root {
+    height:100%;
+    width:100%;
+}
+
+#main {
+    height: 75%;
+}

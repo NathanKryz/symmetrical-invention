@@ -1,10 +1,15 @@
 // Main splash, lorem ipsum it up
 import React from 'react';
+import '../styles/main.css';
+
 
 export default function Home() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1 className="text-info bg-dark text-center">About Me</h1>
+      <div id="profimgcontainer">
+        <img src="./Imageofme.png" alt="Picture of Nathan" id="profimg"></img>
+      </div>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed

@@ -24,9 +24,10 @@ const [currentPage, setCurrentPage] = useState('Home');
   const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-    <div className="d-flex p-2">
-        <nav className="navbar navbar-expand-lg">
-        <p className="navbar-brand">Nathan Kryzanowski</p>
+    <div className='h-75'>
+        <nav className="navbar navbar-expand-lg bg-light pt-3 d-flex flex-wrap align-items-end justify-content-between">
+        <h2 className="navbar-brand ms-3">Nathan Kryzanowski</h2>
+        
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
         </nav>
     {renderPage()}

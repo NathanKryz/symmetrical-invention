@@ -2,6 +2,8 @@ import React from 'react';
 
 function Navigation({ currentPage, handlePageChange }) {
   return (
+    <div className="d-flex justify-content-end end-0 flex-wrap">
+
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <a
@@ -40,6 +42,8 @@ function Navigation({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
+    </div>
+
   );
 }
 

@@ -4,7 +4,7 @@ import MainContainer from './components/Maincontainer';
 const App = () => {
     return (
     <div>
-        <MainContainer />;
+        <MainContainer />
     </div>
     );
 }

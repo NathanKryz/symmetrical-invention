@@ -1,6 +1,7 @@
 // Refer to how to make a contact form
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
+import '../styles/main.css';
 
 function Contact() {
   const [email, setEmail] = useState('');

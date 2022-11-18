@@ -9,8 +9,13 @@ export default function MainContainer() {
   
   return (
     <div>
+        <div id="main">
       <Header />
+      </div>
+      <nav className="navbar navbar-expand-lg d-flex flex-wrap justify-content-between position-relative">
+        <h2 className="navbar-brand">Additional Links</h2>
       <Footer />
+      </nav>
     </div>
   );
 }
