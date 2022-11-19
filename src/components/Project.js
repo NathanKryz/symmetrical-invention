@@ -12,7 +12,7 @@ export default function Project(props){
          <span className="projlab"><p>{`${props.title}`}</p></span>
          </div>
           <div className="text-align-center">
-           <a href={`${props.deployed}`} className="btn btn-primary">Deployment</a>
+           <a href={`${props.deployed}`} className="btn btn-light">Deployment</a>
           </div>
         </div>
      

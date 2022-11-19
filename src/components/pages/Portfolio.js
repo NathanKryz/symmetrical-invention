@@ -7,14 +7,14 @@ export default function Portfolio() {
   return (
     <div className='pageRender'>
       <h1 className='text-center'>Portfolio Page</h1>
+      <div className="pageText text-center">
       <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        Below you can find the links to six of my deployed applications, ranging from simple Javascript
+        applications, to PWA's, to API-fetching, and database integrated projects. Click the image to be taken
+        to the Repository, and the button below each to the live deployment URLs. This portfolio itself was built using
+        React.js
       </p>
+      </div>
       <section className="container projContainer d-flex flex-wrap">
         <Project link={'https://github.com/NathanKryz/psychic-journey'} deployed={'https://psychic-journey.herokuapp.com/'}image={'./PJLoginscreen.png'} alt={'Physic Journey Screenhot'} title={'PsychicJourney'} />
         <Project link={'https://github.com/NathanKryz/laughing-robot'} deployed={'https://laughing-robot.herokuapp.com/'}image={'./jate-screenshot.png'} alt={'Text Editor Screenshot'} title={'JATE'} />

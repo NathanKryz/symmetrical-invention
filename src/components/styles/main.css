@@ -29,7 +29,7 @@
     position: absolute;
     display: flex;
     z-index: 3;
-    background-color: black;
+    background-color: #5D576B;
     font-size: 1vw;
 }
 
@@ -83,6 +83,10 @@
 .pageText{
     margin: auto;
     max-width: 65%;
+}
+
+.pageText ul{
+    list-style: none;
 }
 
 #profimgcontainer{

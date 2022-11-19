@@ -13,7 +13,7 @@ export default function MainContainer() {
       <Header />
       </div>
       <nav className="navbar navbar-expand-lg d-flex flex-wrap justify-content-between position-relative linkNav">
-        <h2 className="navbar-brand">Additional Links</h2>
+        <h2>Additional Links</h2>
       <Footer />
       </nav>
       <div className="backColour"></div>

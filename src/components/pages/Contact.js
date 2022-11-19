@@ -49,7 +49,7 @@ function Contact() {
     <div className="pageRender">
         <h1 className="text-center">Contact Me</h1>
       <form className="form">
-        <div className="mb3">
+        <div className="mb3 inputBox">
         <input
           className="form-control inBox"
           value={email}
@@ -57,9 +57,11 @@ function Contact() {
           onChange={handleInputChange}
           type="email"
           placeholder="email"
+          title="This field is required"
         />
+
         </div>
-        <div className="mb3">
+        <div className="mb3 inputBox">
         <input
           className="form-control inBox"
           value={contactName}
@@ -67,9 +69,10 @@ function Contact() {
           onChange={handleInputChange}
           type="text"
           placeholder="name"
+          title="This field is required"
         />
         </div>
-        <div className="mb3">
+        <div className="mb3 inputBox">
         <textarea
           className="form-control mesBox"
           value={contactMessage}
@@ -77,6 +80,7 @@ function Contact() {
           onChange={handleInputChange}
           type="text"
           placeholder="message"
+          title="This field is required"
         />
         </div>
         <div className="mb3 subButton">
@@ -87,11 +91,12 @@ function Contact() {
       </form>
       {errorMessage && (
         <div>
-          <p className="error-text">{errorMessage}</p>
+          <p className="error-text text-center">{errorMessage}</p>
         </div>
       )}
       <div>
-        <p className="text-center">Email at: n.kryzanowski@hotmail.com</p>
+        <p className="text-center">Email at: <a href="mailto:n.kryzanowski@hotmail.com">n.kryzanowski@hotmail.com</a></p>
+        <p className="text-center">Phone: 905-251-9942</p>
       </div>
     </div>
   );
