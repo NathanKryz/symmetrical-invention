@@ -8,11 +8,11 @@ import Footer from './Footer';
 export default function MainContainer() {
   
   return (
-    <div className="bg-light">
+    <div className="pageRender">
         <div id="main">
       <Header />
       </div>
-      <nav className="navbar navbar-expand-lg d-flex flex-wrap justify-content-between position-relative bg-dark">
+      <nav className="navbar navbar-expand-lg d-flex flex-wrap justify-content-between position-relative linkNav">
         <h2 className="navbar-brand">Additional Links</h2>
       <Footer />
       </nav>

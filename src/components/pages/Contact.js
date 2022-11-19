@@ -46,8 +46,8 @@ function Contact() {
   };
 
   return (
-    <div>
-        <h1>Contact Me</h1>
+    <div className="pageRender">
+        <h1 className="text-center">Contact Me</h1>
       <form className="form">
         <div className="mb3">
         <input
@@ -90,6 +90,9 @@ function Contact() {
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
+      <div>
+        <p className="text-center">Email at: n.kryzanowski@hotmail.com</p>
+      </div>
     </div>
   );
 }

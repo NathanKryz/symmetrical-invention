@@ -5,8 +5,8 @@ import '../styles/main.css';
 
 export default function Home() {
   return (
-    <div className="bg-light">
-      <h1 className="text-info bg-dark text-center">About Me</h1>
+    <div className="pageRender">
+      <h1 className="text-center">About Me</h1>
       <div id="profimgcontainer">
         <img src="./Imageofme.png" alt="Picture of Nathan" id="profimg"></img>
       </div>

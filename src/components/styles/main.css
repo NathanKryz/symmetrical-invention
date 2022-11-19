@@ -6,6 +6,25 @@
     z-index: -3;
     background-color: #005E7C;
 }
+
+.pageRender {
+    background-color: #E5EBEA;
+}
+
+.pageRender h1 {
+    background-color: #5D576B;
+    color: white;
+}
+
+
+.linkNav{
+    background-color: #2F2235;
+}
+
+.linkNav h2 {
+    color: white;
+}
+
 .projlab {
     position: absolute;
     display: flex;

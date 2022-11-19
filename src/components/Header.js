@@ -25,7 +25,7 @@ const [currentPage, setCurrentPage] = useState('Home');
 
     return (
     <div className='h-75'>
-        <nav className="navbar navbar-expand-lg bg-light pt-3 d-flex flex-wrap align-items-end justify-content-between">
+        <nav className="navbar navbar-expand-lg pt-3 d-flex flex-wrap align-items-end justify-content-between linkNav">
         <h2 className="navbar-brand ms-3">Nathan Kryzanowski</h2>
         
         <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
