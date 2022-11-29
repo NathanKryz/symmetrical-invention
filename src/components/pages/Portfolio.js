@@ -22,7 +22,8 @@ export default function Portfolio() {
         <Project link={'https://github.com/NathanKryz/Weather-Dashboard'} deployed={'https://nathankryz.github.io/Weather-Dashboard/'}image={'./weather-dashboard-screenshot.png'} alt={'A Weather Dashboard'} title={'Weather Dashboard'} />
         <Project link={'https://github.com/NathanKryz/Password-Generator'} deployed={'https://nathankryz.github.io/Password-Generator/'}image={'./password-generator-screenshot.png'} alt={'A password generator'} title={'Password Generator'} />
         <Project link={'https://github.com/EsraWameed/Motivation-Locale'} deployed={'https://esrawameed.github.io/Motivation-Locale/'}image={'./motivation-screenshot.png'} alt={'Screenshot of motivation locale'} title={'Motivation Locale'} />
+        <Project link={'https://github.com/hmhtom/NAS-Centre'} deployed={'https://nas-center.herokuapp.com/'} image={'./nas-center-screenshot.png'} alt={'Screenshot of the NAS Center'} title={'NAS-Centre'} />
       </section>
     </div>
-  );
+  ); 
 }
