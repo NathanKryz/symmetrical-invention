@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/symmetrical-invention/static/css/main.1119ff26.css",
-    "main.js": "/symmetrical-invention/static/js/main.59938ab2.js",
+    "main.js": "/symmetrical-invention/static/js/main.9457ddfa.js",
     "index.html": "/symmetrical-invention/index.html",
     "main.1119ff26.css.map": "/symmetrical-invention/static/css/main.1119ff26.css.map",
-    "main.59938ab2.js.map": "/symmetrical-invention/static/js/main.59938ab2.js.map"
+    "main.9457ddfa.js.map": "/symmetrical-invention/static/js/main.9457ddfa.js.map"
   },
   "entrypoints": [
     "static/css/main.1119ff26.css",
-    "static/js/main.59938ab2.js"
+    "static/js/main.9457ddfa.js"
   ]
 }
