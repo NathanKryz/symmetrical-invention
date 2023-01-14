@@ -11,6 +11,9 @@ export default function Project(props){
            </a>
          <span className="projlab"><p>{`${props.title}`}</p></span>
          </div>
+         <div className="text-align-center projdesc">
+          <p>{props.desc}</p>
+         </div>
           <div className="text-align-center">
            <a href={`${props.deployed}`} className="btn btn-light">Deployment</a>
            <a href={`${props.link}`} className="btn btn-info">Github</a>

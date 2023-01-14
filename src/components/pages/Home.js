@@ -17,6 +17,17 @@ export default function Home() {
         Over this three month journey, it is my goal to be able to develop a wide range of applications that will have a lasting positive effect on all those who use them.
         Check back later as I continue along this journey of mine as I improve my skills, and will update this page to further showcase newer and greater projects as time goes on.
       </p>
+      <br></br>
+
+    <h2 className="text-center">Skills</h2>
+      <ul className="pageText text-center">
+        <li>HTML Page Structuring</li>
+        <li>Javascript scripting, database calls, and API calls</li>
+        <li>React based webpage design and organization</li>
+        <li>CSS webpage styling</li>
+        <li>Object Orientated Programming</li>
+        <li>Database creation and manipulation</li>
+      </ul>
       </div>
     </div>
   );

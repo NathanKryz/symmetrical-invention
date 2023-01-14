@@ -51,6 +51,16 @@
     height: 250px;
 }
 
+.projdesc {
+    max-width: 600px;
+    width: 250px;
+}
+
+.projdesc p {
+    font-size: 14px;
+    font-weight: bold;
+}
+
 .mesBox{
     margin-top: 1.5rem;
     height: 300px;
