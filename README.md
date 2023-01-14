@@ -7,6 +7,10 @@ for style, and using React in order to connect the various pages together for a 
 projects, a page for a contact form as well as my e-mail and phone, and a final page with a summary and downloadable link to my resume in pdf format. This repo exists
 as a culmination of my last three months of learning in fullstack development.
 
+## Organization
+
+The root folder contains all the further directories as well the package.jsons for referencing and installing the required third party nodes. The public folder contains all the image assets used in the live deployment of the application. Within the src folder is where most important files are found, with the folder first containing the data on the page render within index.jss, the react root app call in App.js, and the global style resets within index.css. The utils folder contains the one (At present) script used for authorization on the contact form. The components folder then contains all the code for each of the reoccuring renders on each of the pages, with the pages folder having the specific code for each selectable page.
+
 ## Installation
 
 For installing in a development enviroment, first be sure to either clone or manually download the code in the repository. From there, open a command line terminal at
